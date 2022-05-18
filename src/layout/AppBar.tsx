@@ -48,6 +48,7 @@ const CustomAppBar = (props: any) => {
             color="secondary"
             elevation={1}
             userMenu={<CustomUserMenu />}
+            position='relative'
         >
             <Typography
                 variant="h6"

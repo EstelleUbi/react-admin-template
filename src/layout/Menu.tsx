@@ -37,14 +37,14 @@ const Menu = ({ dense = false }: MenuProps) => {
     return (
         <Box
             sx={{
-                width: open ? 200 : 50,
-                marginTop: 1,
+                width: open ? 250 : 50,
                 marginBottom: 1,
                 transition: theme =>
                     theme.transitions.create('width', {
                         easing: theme.transitions.easing.sharp,
                         duration: theme.transitions.duration.leavingScreen,
                     }),
+                backgroundColor: '#fff',
             }}
         >
             <DashboardMenuItem />
